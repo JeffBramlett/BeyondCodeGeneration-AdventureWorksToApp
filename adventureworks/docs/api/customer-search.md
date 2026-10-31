@@ -1,0 +1,9 @@
+# Customer Search API
+
+`GET /api/customers` defines the bounded customer selection contract. It accepts `page` (1-10,000, default 1), `pageSize` (1-100, default 25), optional `search` (up to 100 characters), `sortBy` (`customerId`, `displayName`, or `customerKind`, default `displayName`), and `sortDirection` (`asc` or `desc`, default `asc`). Whitespace-only search is rejected. Search matches the customer ID or, for stores, the store name.
+
+The paged response contains only `customerId`, `displayName`, and `customerKind`, plus `page`, `pageSize`, and `hasMore`. Customer kind is based on a successful identity join from `Sales.Customer.PersonID` to `Person.Person.BusinessEntityID` or from `Sales.Customer.StoreID` to `Sales.Store.BusinessEntityID`, not nullable IDs alone. Rows with missing or ambiguous identity joins are excluded. Store display names use `Sales.Store.Name`; person customers use the generic label `Person customer`. Person names and other PII, addresses, and live rows are not included in this contract. The implemented SQL adapter uses the fixed, guarded, read-only AdventureWorks2022_Test connection described below; this contract does not authorize production exposure.
+
+Customer search uses the same server-side SQL adapter and per-connection checks documented in [product-catalog.md](product-catalog.md). It returns only the DTO fields described above. Database errors and failed safety checks return a sanitized `503 Service Unavailable`; the API does not use the interactive Windows login or read connection strings from appsettings.
+
+`GET /api/customers/{customerId}/order-options` is a separate contract that returns linked address choices and bounded ship-method choices. See [customer-order-options.md](customer-order-options.md) for its ownership checks, response fields, status codes, and permission gate.

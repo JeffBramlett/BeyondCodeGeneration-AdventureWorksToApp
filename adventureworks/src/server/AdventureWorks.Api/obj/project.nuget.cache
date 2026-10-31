@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "DvxLKEFxB/c=",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\adventureworks\\src\\server\\AdventureWorks.Api\\AdventureWorks.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jeffj\\.nuget\\packages\\microsoft.aspnetcore.authentication.negotiate\\10.0.14\\microsoft.aspnetcore.authentication.negotiate.10.0.14.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.18\\microsoft.bcl.cryptography.9.0.18.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\microsoft.data.sqlclient\\7.1.1\\microsoft.data.sqlclient.7.1.1.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\microsoft.data.sqlclient.extensions.abstractions\\7.1.1\\microsoft.data.sqlclient.extensions.abstractions.7.1.1.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\microsoft.data.sqlclient.internal.logging\\7.1.1\\microsoft.data.sqlclient.internal.logging.7.1.1.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\7.1.0\\microsoft.data.sqlclient.sni.runtime.7.1.0.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.16.0\\microsoft.identitymodel.abstractions.8.16.0.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.16.0\\microsoft.identitymodel.jsonwebtokens.8.16.0.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\microsoft.identitymodel.logging\\8.16.0\\microsoft.identitymodel.logging.8.16.0.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\microsoft.identitymodel.protocols\\8.16.0\\microsoft.identitymodel.protocols.8.16.0.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\8.16.0\\microsoft.identitymodel.protocols.openidconnect.8.16.0.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.16.0\\microsoft.identitymodel.tokens.8.16.0.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.18\\system.configuration.configurationmanager.9.0.18.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\system.directoryservices.protocols\\10.0.14\\system.directoryservices.protocols.10.0.14.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.16.0\\system.identitymodel.tokens.jwt.8.16.0.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\system.security.cryptography.pkcs\\10.0.14\\system.security.cryptography.pkcs.10.0.14.nupkg.sha512",
+    "C:\\Users\\jeffj\\.nuget\\packages\\system.security.cryptography.protecteddata\\10.0.0\\system.security.cryptography.protecteddata.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
